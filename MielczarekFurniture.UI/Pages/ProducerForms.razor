@@ -1,0 +1,58 @@
+﻿@page "/form-producers-add/{id:int}"
+@inherits ProducerFormsBase
+
+@if (ErrorMessage != null)
+{
+    <DisplayError ErrorMessage="@ErrorMessage"></DisplayError>
+}
+else if(@Id == -1)
+{
+    <h1>Adding producent</h1>
+    <EditForm Model="@Producer" OnValidSubmit="@AddProducer_Click">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div>
+            <h3>Name:</h3>
+            <InputText id="name" @bind-Value="Producer.Name" style="width:40%"/>
+            <hr class="mb-3"/>
+        </div>
+        <div>
+            <h3>Star:</h3>
+            <InputSelect id="star" @bind-Value="Producer.Star" style="width:40%">
+                @foreach (var star in Star)
+                {
+                    <option>@star</option>
+                }
+            </InputSelect>
+            <hr class="mb-3"/>
+        </div>
+        <div>
+            <button class="btn btn-success" type="submit">Add</button>
+        </div>
+    </EditForm>
+}
+else{
+    <h1>Modifying producent</h1>
+    <EditForm Model="@Producer" OnValidSubmit="@ModifyProducer_Click">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div>
+            <h3>Name:</h3>
+            <InputText id="name" @bind-Value="Producer.Name" style="width:40%"/>
+            <hr class="mb-3"/>
+        </div>
+        <div>
+            <h3>Star:</h3>
+            <InputSelect id="star" @bind-Value="Producer.Star" style="width:40%">
+                @foreach (var star in Star)
+                {
+                    <option>@star</option>
+                }
+            </InputSelect>
+            <hr class="mb-3"/>
+        </div>
+        <div>
+            <button class="btn btn-primary" type="submit">Modify</button>
+        </div>
+    </EditForm>
+}

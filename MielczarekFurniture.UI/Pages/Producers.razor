@@ -1,0 +1,49 @@
+﻿@page "/producers"
+@inherits ProducersBase
+
+
+@if(Producers == null)
+{
+    <DisplaySpinner/>
+}
+else if (ErrorMessage != null)
+{
+    <DisplayError ErrorMessage="@ErrorMessage"></DisplayError>
+}
+else
+{
+    <div>
+        <button class="btn btn-success" @onclick="(() => AddProducer_Click())">Add producer</button>
+    </div>
+    <hr class="mb-3"/>
+    <div class="form-group">
+        <label for="search">Search producers</label>
+        <input @onchange="onSearchChangedAsync" class="form-control" id="search" placeholder="Name.."/>
+    </div>
+    <hr class="mb-3"/>
+    <h3 class="mb-5">Producers 
+        @if (!@Ascending)
+        {
+            <button @onclick = "() => onOrderChanged()"style="border:0; background:white"><span class="oi oi-arrow-bottom"></span></button>
+        }
+        else
+        {
+            <button @onclick = "() => onOrderChanged()" style="border:0; background:white"><span class="oi oi-arrow-top"></span></button>
+        }
+    </h3>
+        var producersCount = Producers.Count();
+
+    @if(producersCount > 0)
+    {
+
+        @foreach(var producer in Producers)
+        {
+            <h4>@producer.Name</h4>
+            <h5>Star: @producer.Star</h5>
+            <button class="btn btn-primary" @onclick="(() => ModifyProducer_Click(producer.Id))">Modify</button>
+            <button class="btn btn-danger" @onclick="(() => DeleteProducer_Click(producer.Id))">Delete</button>
+            <hr class="mb-3"/>
+        }
+
+    }
+}

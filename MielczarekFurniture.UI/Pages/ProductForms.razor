@@ -1,0 +1,74 @@
+﻿@page "/form-add/{id:int}"
+@inherits ProductFormsBase
+
+
+@if (ErrorMessage != null)
+{
+    <DisplayError ErrorMessage="@ErrorMessage"></DisplayError>
+}
+else if(@Id == -1)
+{
+    <h1>Adding product</h1>
+    var producersCount = Producers.Count();
+    <EditForm Model="@Product" OnValidSubmit="@AddItem_Click">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div>
+            <h3>Name:</h3>
+            <InputText id="name" @bind-Value="Product.Name" style="width:40%"/>
+            <h3>Description:</h3>
+            <InputTextArea id="description" @bind-Value="Product.Description" style="width:40%"/>
+            <h3>Price:</h3>
+            <InputNumber id="price" @bind-Value="Product.Price" style="width:40%"/>
+            <h3>Image URL:</h3>
+            <InputText id="imageUrl" @bind-Value="Product.ImageURL" style="width:40%"/>
+            <h3>Producer Name:</h3>
+            <InputSelect id="producerName" @bind-Value="Product.ProducerName" style="width:40%">
+                @foreach(var producer in Producers)
+                {
+                    <option>@producer.Name</option>
+                }
+            </InputSelect>
+            <hr class="mb-3"/>
+            </div>
+                @if (producersCount > 0)
+                {
+                    <div>
+                        <button class="btn btn-success" type="submit">Add</button>
+                    </div>
+                }
+                else
+                {
+                    <span>No producers added. You cannot add product.</span>
+                }
+    </EditForm>
+
+}
+else{
+    <h1>Modifying product</h1>
+    <EditForm Model="@Product" OnValidSubmit="@ModifyItem_Click">
+        <DataAnnotationsValidator />
+        <div>
+            <h3>Name:</h3>
+            <InputText id="name" @bind-Value="Product.Name" style="width:40%"/>
+            <h3>Description:</h3>
+            <InputTextArea id="description" @bind-Value="Product.Description" style="width:40%"/>
+            <h3>Price:</h3>
+            <InputNumber id="price" @bind-Value="Product.Price" style="width:40%"/>
+            <h3>Image URL:</h3>
+            <InputText id="imageUrl" @bind-Value="Product.ImageURL" style="width:40%"/>
+            <h3>Producer Name:</h3>
+            <InputSelect id="producerName" @bind-Value="Product.ProducerName" style="width:40%">
+                @foreach(var producer in Producers)
+                {
+                    <option>@producer.Name</option>
+                }
+            </InputSelect>
+            <hr class="mb-3"/>
+        </div>
+        <div>
+            <button class="btn btn-primary" type="submit">Modify</button>
+        </div>
+    </EditForm>
+}
+

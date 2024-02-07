@@ -1,0 +1,15 @@
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\bin\Debug\net6.0\MielczarekFurniture.Models.deps.json
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\bin\Debug\net6.0\MielczarekFurniture.Models.dll
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\bin\Debug\net6.0\MielczarekFurniture.Models.pdb
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\obj\Debug\net6.0\MielczarekFurniture.Models.csproj.AssemblyReference.cache
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\obj\Debug\net6.0\MielczarekFurniture.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\obj\Debug\net6.0\MielczarekFurniture.Models.AssemblyInfoInputs.cache
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\obj\Debug\net6.0\MielczarekFurniture.Models.AssemblyInfo.cs
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\obj\Debug\net6.0\MielczarekFurniture.Models.csproj.CoreCompileInputs.cache
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\obj\Debug\net6.0\MielczarekFurniture.Models.dll
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\obj\Debug\net6.0\refint\MielczarekFurniture.Models.dll
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\obj\Debug\net6.0\MielczarekFurniture.Models.pdb
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\obj\Debug\net6.0\ref\MielczarekFurniture.Models.dll
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\bin\Debug\net6.0\MielczarekFurniture.Core.dll
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\bin\Debug\net6.0\MielczarekFurniture.Core.pdb
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\MielczarekFurniture.Models\obj\Debug\net6.0\MielczarekFurniture.Models.csproj.CopyComplete

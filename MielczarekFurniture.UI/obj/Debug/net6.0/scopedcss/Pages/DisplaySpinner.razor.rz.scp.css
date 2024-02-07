@@ -1,0 +1,36 @@
+div[b-aleqaidbmn] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#container[b-aleqaidbmn] {
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes animation-b-aleqaidbmn {
+    0% {
+        stroke-dasharray: 1 98;
+        stroke-dashoffset: -105;
+    }
+
+    50% {
+        stroke-dasharray: 80 10;
+        stroke-dashoffset: -160;
+    }
+
+    100% {
+        stroke-dasharray: 1 98;
+        stroke-dashoffset: -300;
+    }
+}
+
+#spinner[b-aleqaidbmn] {
+    transform-origin: center;
+    animation-name: animation-b-aleqaidbmn;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier;
+    animation-iteration-count: infinite;
+}

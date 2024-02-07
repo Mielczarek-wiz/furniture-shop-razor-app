@@ -1,0 +1,12 @@
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\Core\bin\Debug\net6.0\MielczarekFurniture.Core.deps.json
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\Core\bin\Debug\net6.0\MielczarekFurniture.Core.dll
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\Core\bin\Debug\net6.0\MielczarekFurniture.Core.pdb
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\Core\obj\Debug\net6.0\MielczarekFurniture.Core.csproj.AssemblyReference.cache
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\Core\obj\Debug\net6.0\MielczarekFurniture.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\Core\obj\Debug\net6.0\MielczarekFurniture.Core.AssemblyInfoInputs.cache
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\Core\obj\Debug\net6.0\MielczarekFurniture.Core.AssemblyInfo.cs
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\Core\obj\Debug\net6.0\MielczarekFurniture.Core.csproj.CoreCompileInputs.cache
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\Core\obj\Debug\net6.0\MielczarekFurniture.Core.dll
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\Core\obj\Debug\net6.0\refint\MielczarekFurniture.Core.dll
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\Core\obj\Debug\net6.0\MielczarekFurniture.Core.pdb
+C:\Users\Damian Mielczarek\source\repos\MielczarekFurnitureSolution\Core\obj\Debug\net6.0\ref\MielczarekFurniture.Core.dll

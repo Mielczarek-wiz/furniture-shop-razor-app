@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MielczarekFurniture.Models/1.0.0": {
+        "dependencies": {
+          "MielczarekFurniture.Core": "1.0.0"
+        },
+        "runtime": {
+          "MielczarekFurniture.Models.dll": {}
+        }
+      },
+      "MielczarekFurniture.Core/1.0.0": {
+        "runtime": {
+          "MielczarekFurniture.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MielczarekFurniture.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MielczarekFurniture.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\MielczarekFurniture.UI\\MielczarekFurniture.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\Core\\MielczarekFurniture.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\Core\\MielczarekFurniture.Core.csproj",
+        "projectName": "MielczarekFurniture.Core",
+        "projectPath": "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\Core\\MielczarekFurniture.Core.csproj",
+        "packagesPath": "C:\\Users\\Damian Mielczarek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Damian Mielczarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\MielczarekFurniture.Models\\MielczarekFurniture.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\MielczarekFurniture.Models\\MielczarekFurniture.Models.csproj",
+        "projectName": "MielczarekFurniture.Models",
+        "projectPath": "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\MielczarekFurniture.Models\\MielczarekFurniture.Models.csproj",
+        "packagesPath": "C:\\Users\\Damian Mielczarek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\MielczarekFurniture.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Damian Mielczarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\Core\\MielczarekFurniture.Core.csproj": {
+                "projectPath": "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\Core\\MielczarekFurniture.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\MielczarekFurniture.UI\\MielczarekFurniture.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\MielczarekFurniture.UI\\MielczarekFurniture.UI.csproj",
+        "projectName": "MielczarekFurniture.UI",
+        "projectPath": "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\MielczarekFurniture.UI\\MielczarekFurniture.UI.csproj",
+        "packagesPath": "C:\\Users\\Damian Mielczarek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\MielczarekFurniture.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Damian Mielczarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\Core\\MielczarekFurniture.Core.csproj": {
+                "projectPath": "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\Core\\MielczarekFurniture.Core.csproj"
+              },
+              "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\MielczarekFurniture.Models\\MielczarekFurniture.Models.csproj": {
+                "projectPath": "C:\\Users\\Damian Mielczarek\\source\\repos\\MielczarekFurnitureSolution\\MielczarekFurniture.Models\\MielczarekFurniture.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.6, 6.0.6]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

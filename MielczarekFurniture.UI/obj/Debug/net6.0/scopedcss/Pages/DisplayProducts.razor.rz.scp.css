@@ -1,0 +1,27 @@
+a[b-80v8ntj9ne] {
+    text-decoration: none;
+}
+
+a:hover .card[b-80v8ntj9ne] {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card[b-80v8ntj9ne] {
+    transition: box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+    text-align: center;
+    align-items:center;
+}
+
+a:hover img[b-80v8ntj9ne] {
+    transform: scale(1.07);
+    transition: 0.5s ease-in-out;
+}
+
+img[b-80v8ntj9ne] {
+    width:fit-content;
+    height:200px;
+    transition: 0.5s ease-in-out;
+    border: none
+}
